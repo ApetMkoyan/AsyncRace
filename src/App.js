@@ -1,17 +1,17 @@
 import React from 'react';
-import GarageControl from './components/GarageControl';
-import WinnersControl from './components/WinnersControl';
-import CarControl from './components/CarControl';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import GarageControl from './components/GarageControl/GarageControl';
+import WinnersControl from './components/WinnersControl/WinnersControl';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1>Car Race Management</h1>
-      <GarageControl />
-      <WinnersControl />
-      <CarControl />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<GarageControl />} />
+        <Route path="/winners" element={<WinnersControl />} />
+      </Routes>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;

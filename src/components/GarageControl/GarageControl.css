@@ -1,0 +1,36 @@
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.car-card {
+  width: 150px;
+  height: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.car-card button {
+  margin-top: 10px;
+}
+
+.race-control {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

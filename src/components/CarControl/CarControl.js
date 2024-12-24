@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import './CarControl.css'
 
 const CarControl = () => {
   const [carData, setCarData] = useState(null);

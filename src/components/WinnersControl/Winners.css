@@ -1,0 +1,39 @@
+.winners {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.winners ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.winners li {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.winners .gold {
+  color: gold;
+}
+
+.winners .silver {
+  color: silver;
+}
+
+.winners .bronze {
+  color: #cd7f32; 
+}
+
+.winners .gold::before {
+  content: '🥇';
+}
+
+.winners .silver::before {
+  content: '🥈';
+}
+
+.winners .bronze::before {
+  content: '🥉';
+}

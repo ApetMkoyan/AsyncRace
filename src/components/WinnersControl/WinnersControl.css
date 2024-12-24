@@ -1,0 +1,38 @@
+.winners {
+  padding: 20px;
+  background-color: #f8f7f7;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.winner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.medal {
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.gold {
+  background-color: gold;
+  color: rgb(0, 0, 0);
+}
+
+.silver {
+  background-color: silver;
+  color: rgb(0, 0, 0);
+}
+
+.bronze {
+  background-color: #cd7f32;
+  color: rgb(0, 0, 0);
+}
+
+.winner-name {
+  font-size: 1.2em;
+}
